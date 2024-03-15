@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'gbus';
+    src: url(file/GHOSTBUS.TTF);
+    font-size: large;
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(file/RobotoMono-Bold.ttf);
+    font-size: large;
+}
+*{
+    background-color: ghostwhite;
+    font-family: 'roboto';
+    padding: 10px;
+    align-items: center;
+}
+header{
+    align-items: center;
+    text-align: center;
+    background-image: url("file/meuicone.jpg");    
+    height: 180px;
+}
+header h1, header h2{
+    background-color: rgb(146, 22, 22);
+    color: ghostwhite;    
+    width:fit-content;
+    margin: auto;  
+    
+
+}
+section{
+    display: flex;
+    border: solid red 3px;
+    margin: 5px;
+}
+section img, section p{
+    flex: 1;
+} 
+h1,h2,h3{
+    font-family: 'gbus';
+    text-align: center;
+}
+img{
+    height: 300px;
+}
+ghost{
+    text-align: center;
+    background-color:black;    
+}
+exorcismo{
+background-color: dimgrey;
+}
+reza{
+background-color: black;
+}
+detetizar{
+    background-color: dimgrey;
+}
+p{
+    background-color: rgb(146, 22, 22);
+    color: ghostwhite;
+}
+hunter{
+    text-align: center;
+}
+footer, footer p{
+    padding: 0%;
+    background-color: black;
+
+}
+#assombrado{
+    text-align: center;
+    width:fit-content;
+    margin: auto;  
+}
+#services{
+    width: 28%;
+    align-items: normal;
+    height: 725px;
+}
+img:hover{
+    border: rgb(146, 22, 22) solid 5px;
+}
